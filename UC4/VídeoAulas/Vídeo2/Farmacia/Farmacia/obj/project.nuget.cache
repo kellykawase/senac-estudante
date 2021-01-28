@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tlVlggQV5+2fMyTygIrWrCUXD0gWCu8Kd+ScdOzRiNc0EJxXPTVMDDozS5f9oRR+u4OFP35TuiWi/+YNO/i3Og==",
+  "success": true,
+  "projectFilePath": "D:\\SENAC\\UC4\\VideoAulas\\Farmacia\\Farmacia\\Farmacia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kelly\\.nuget\\packages\\mysqlconnector\\1.2.1\\mysqlconnector.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
