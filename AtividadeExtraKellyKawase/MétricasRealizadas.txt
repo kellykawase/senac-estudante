@@ -1,0 +1,37 @@
+_________________________________________________
+
+************Métricas realizadas******************
+_________________________________________________
+
+* Período (quantPer):
+
+- Manhã e/ou noite ( + 1 café )
+- Tarde  ( + 0 café )
+__________________________________________________
+
+* Horas (quantHor):
+
+- Menor ou igual a 4 ( 2 cafés )
+- Maior que 4 e  menor ou igual a 8 ( 4 cafés )
+- Mais que 8h ( 6 cafés )
+__________________________________________________
+
+* Escala (quantEsc):
+
+- 1 ou 2 = 50% do café
+
+- 3 ou 4 ou 5 = 100% do café"
+
+Total de café = quantPer + (quantHor * quantEsc)
+__________________________________________________
+
+Exemplo: 
+1) trabalha nos 3 períodos (manhã, tarde noite), 10 h e escolheu escala 2.
+Total = 1 + (6 * 0.5) = 4 cafés.
+
+2) trabalha 1 período (tarde), 1 h e escala 5.
+Total = 0 + (2*1) = 2 cafés
+
+Observações: considerei que a pessoa poderá também trabalhar em
+qualquer turno, em horário "picotado". Pode trabalhar 
+3 horas, nos 3 turnos: 1h em cada turno, por exemplo.
