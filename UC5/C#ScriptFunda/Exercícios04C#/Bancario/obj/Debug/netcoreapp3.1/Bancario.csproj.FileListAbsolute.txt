@@ -1,0 +1,13 @@
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\bin\Debug\netcoreapp3.1\Bancario.exe
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\bin\Debug\netcoreapp3.1\Bancario.deps.json
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\bin\Debug\netcoreapp3.1\Bancario.runtimeconfig.json
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\bin\Debug\netcoreapp3.1\Bancario.runtimeconfig.dev.json
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\bin\Debug\netcoreapp3.1\Bancario.dll
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\bin\Debug\netcoreapp3.1\Bancario.pdb
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\obj\Debug\netcoreapp3.1\Bancario.csprojAssemblyReference.cache
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\obj\Debug\netcoreapp3.1\Bancario.AssemblyInfoInputs.cache
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\obj\Debug\netcoreapp3.1\Bancario.AssemblyInfo.cs
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\obj\Debug\netcoreapp3.1\Bancario.csproj.CoreCompileInputs.cache
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\obj\Debug\netcoreapp3.1\Bancario.dll
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\obj\Debug\netcoreapp3.1\Bancario.pdb
+C:\Users\kelly\Desktop\UC5\Exercícios04C#\Bancario\obj\Debug\netcoreapp3.1\Bancario.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\bin\Debug\netcoreapp3.1\exer02.exe
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\bin\Debug\netcoreapp3.1\exer02.deps.json
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\bin\Debug\netcoreapp3.1\exer02.runtimeconfig.json
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\bin\Debug\netcoreapp3.1\exer02.runtimeconfig.dev.json
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\bin\Debug\netcoreapp3.1\exer02.dll
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\bin\Debug\netcoreapp3.1\exer02.pdb
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\obj\Debug\netcoreapp3.1\exer02.csprojAssemblyReference.cache
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\obj\Debug\netcoreapp3.1\exer02.AssemblyInfoInputs.cache
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\obj\Debug\netcoreapp3.1\exer02.AssemblyInfo.cs
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\obj\Debug\netcoreapp3.1\exer02.csproj.CoreCompileInputs.cache
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\obj\Debug\netcoreapp3.1\exer02.dll
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\obj\Debug\netcoreapp3.1\exer02.pdb
+C:\Users\kelly\Desktop\UC5\Exercícios02C#\exer02\obj\Debug\netcoreapp3.1\exer02.genruntimeconfig.cache

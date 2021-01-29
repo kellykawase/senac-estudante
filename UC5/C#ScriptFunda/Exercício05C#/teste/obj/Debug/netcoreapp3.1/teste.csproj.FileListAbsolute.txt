@@ -1,0 +1,13 @@
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\bin\Debug\netcoreapp3.1\teste.exe
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\bin\Debug\netcoreapp3.1\teste.deps.json
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\bin\Debug\netcoreapp3.1\teste.runtimeconfig.json
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\bin\Debug\netcoreapp3.1\teste.runtimeconfig.dev.json
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\bin\Debug\netcoreapp3.1\teste.dll
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\bin\Debug\netcoreapp3.1\teste.pdb
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\obj\Debug\netcoreapp3.1\teste.csprojAssemblyReference.cache
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\obj\Debug\netcoreapp3.1\teste.AssemblyInfoInputs.cache
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\obj\Debug\netcoreapp3.1\teste.AssemblyInfo.cs
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\obj\Debug\netcoreapp3.1\teste.csproj.CoreCompileInputs.cache
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\obj\Debug\netcoreapp3.1\teste.dll
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\obj\Debug\netcoreapp3.1\teste.pdb
+C:\Users\kelly\Desktop\UC5\Exercício05C#\teste\obj\Debug\netcoreapp3.1\teste.genruntimeconfig.cache

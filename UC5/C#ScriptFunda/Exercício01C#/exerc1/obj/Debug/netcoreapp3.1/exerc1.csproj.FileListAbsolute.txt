@@ -1,0 +1,13 @@
+C:\Users\kelly\Desktop\UC5\exerc1\obj\Debug\netcoreapp3.1\exerc1.csprojAssemblyReference.cache
+C:\Users\kelly\Desktop\UC5\exerc1\obj\Debug\netcoreapp3.1\exerc1.AssemblyInfoInputs.cache
+C:\Users\kelly\Desktop\UC5\exerc1\obj\Debug\netcoreapp3.1\exerc1.AssemblyInfo.cs
+C:\Users\kelly\Desktop\UC5\exerc1\obj\Debug\netcoreapp3.1\exerc1.csproj.CoreCompileInputs.cache
+C:\Users\kelly\Desktop\UC5\exerc1\bin\Debug\netcoreapp3.1\exerc1.exe
+C:\Users\kelly\Desktop\UC5\exerc1\bin\Debug\netcoreapp3.1\exerc1.deps.json
+C:\Users\kelly\Desktop\UC5\exerc1\bin\Debug\netcoreapp3.1\exerc1.runtimeconfig.json
+C:\Users\kelly\Desktop\UC5\exerc1\bin\Debug\netcoreapp3.1\exerc1.runtimeconfig.dev.json
+C:\Users\kelly\Desktop\UC5\exerc1\bin\Debug\netcoreapp3.1\exerc1.dll
+C:\Users\kelly\Desktop\UC5\exerc1\bin\Debug\netcoreapp3.1\exerc1.pdb
+C:\Users\kelly\Desktop\UC5\exerc1\obj\Debug\netcoreapp3.1\exerc1.dll
+C:\Users\kelly\Desktop\UC5\exerc1\obj\Debug\netcoreapp3.1\exerc1.pdb
+C:\Users\kelly\Desktop\UC5\exerc1\obj\Debug\netcoreapp3.1\exerc1.genruntimeconfig.cache
