@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>PetVet</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0">
+	<meta name="keywords" content="veterinária,animais,pet,cachorro,gato"/>
+	<link rel="stylesheet" href="~/css/site.css">
+	<script src="https://kit.fontawesome.com/1894838314.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<header>
+		<div class="logo"><h2>PetVet</h2></div>		
+		<nav class="menu">
+			<ul>
+				<li class="selected">
+					<a href="/Home/Index">Home</a>
+				</li>
+				<li>
+					<a href="/Home/Servicos">Serviços</a>
+				</li>
+				<li>
+					<a href="/Home/PreAgendamento">Agendamento</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="clear"></div>	
+	</header>
+
+    <main role="main">
+            @RenderBody()
+    </main>
+	<div class="clear"></div>
+    <footer class="footer1">		
+		<div class="container"> 			
+			<div class="um_terco">
+				<h2>Endereço</h2>
+				<p><i class="fa fa-map-pin" aria-hidden="true"></i> R.Alguma coisa, Centro, Vitória - E.S</p>					
+			</div><!--primeira div um_terco-->
+			<div class="um_terco">
+				<h2>Telefone</h2>
+				<p><i class="fa fa-phone" aria-hidden="true"></i>(27)9999-9999</p>	
+			</div><!-- segunda div um_terco-->
+			<div class="um_terco">
+				<h2>Redes Sociais</h2>
+				<div class="redes_sociais">
+					<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+					<a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+				</div><!--div redes_sociais-->	
+			</div><!--terceira div um_terco-->
+			<div class="clear"></div>
+		</div><!--div container-->
+	</footer><!--primeiro footer-->
+
+	<footer class="footer2">
+		<div class="container">
+			<p>Todos os direitos reservados</p>
+		</div>
+	</footer><!--segundo footer-->
+
+</body>
+
+</html>

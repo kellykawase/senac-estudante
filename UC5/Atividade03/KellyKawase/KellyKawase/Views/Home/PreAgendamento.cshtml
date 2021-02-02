@@ -1,0 +1,46 @@
+@{
+    ViewData["Title"] = "PreAgendamento";
+}
+@model Consulta
+
+<section class="main">			
+		<div class="subtitulo">
+			<p>Pré-Agendamento</p>
+		</div><!--div subtítulo-->
+</section>
+	<div class="clear"></div>
+
+	<section class="preagendamento">
+    <form method="POST">
+	<fieldset>
+		<legend><i class="fas fa-paw"> Formulário de Pré-Agendamento</i></legend>
+		<div class="clear">
+			<div class="column-3 column label"><label asp-for="nome">Nome: </label></div>
+			<div class="column-9 column input"><input asp-for="nome" type="text" id="nome" name="nome"  maxlength="90" autocomplete="off" required autofocus /></div></div>		
+			<div class="clear">
+			<div class="column-3 column label"><label asp-for="telefone">Telefone: </label></div>
+			<div class="column-9 column input"><input asp-for="telefone" type="tel" id="telefone" nome="telefone"  maxlength="13" autocomplete="off" required autofocus /></div></div>
+
+			<div class="clear">
+			<div class="column-3 column label"><label asp-for="data">Data: </label></div>
+			<div class="column-9 column input"><input asp-for="data" type="date" id="data" maxlength="8" autocomplete="off" required autofocus /></div></div>
+
+			<div class="clear">
+			<div class="column-3 column label"><label asp-for="animal">Animal:</label></div>
+   			<div class="column-9 column input"><select asp-for="animal" required name="animal" id="animal" >
+   				<option value=""></option>		        
+		        <option value="cachorro">Cachorro</option>
+		        <option value="coelho">Coelho</option>
+		        <option value="gato">Gato</option>
+		        <option value="passaro">Pássaro</option>
+		        <option value="peixe">Peixe</option>
+    		</select></div></div>
+
+    		<div class="clear">
+			<div class="column-3 column label"><label asp-for="necessidade">Necessidade:</label></div>
+    		<div class="column-9 column input"><textarea asp-for="necessidade" id="necessidade" name="necessidade" rows="4" maxlength="200" required autofocus ></textarea></div></div>
+
+    		<p><input type="submit" id="enviar" value="Enviar" name="enviar" /></p>
+    	</fieldset>	
+</form>
+</section>

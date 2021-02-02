@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "Confirmado";
+}
+
+<section class="main">			
+		<div class="subtitulo">
+			<p>Sua consulta  foi agendada com Sucesso!!!</p>
+		</div><!--div subtítulo-->
+</section>
+
+<div class="clear"></div>
+
+<section class="confirmado">
+<div class="informacoes">
+    <fieldset>
+		<legend><i class="fas fa-paw"> Dados da Consulta Agendada</i></legend>
+		<div class="clear">
+			<div class="col-3 col campo">Nome:</div>
+            <div class="col-9 col dado">@ViewBag.agendamento_nome</div>
+        </div>
+        
+		<div class="clear">
+			<div class="col-3 col campo">Telefone:</div>
+            <div class="col-9 col dado">@ViewBag.agendamento_telefone</div>
+        </div>
+
+        <div class="clear">
+			<div class="col-3 col campo">Data:</div>
+            <div class="col-9 col dado">@ViewBag.agendamento_data</div>
+        </div>
+       
+         <div class="clear"> 
+			<div class="col-3 col campo">Animal:</div>
+            <div class="col-9 col dado">@ViewBag.agendamento_animal</div>
+         </div>
+
+        <div class="clear">
+			<div class="col-3 col campo">Necessidade:</div></div> 
+            <div class="col-9 col dado1">@ViewBag.agendamento_necessidade</div>
+        
+   </div><!--div informacoes-->
+   </fieldset>
+<p><a asp-action="PreAgendamento">Agendar nova Consulta</a></p>
+</section>
