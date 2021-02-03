@@ -1,0 +1,36 @@
+CREATE DATABASE farmacia;
+
+use farmacia;
+
+CREATE TABLE Clinica(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(128),
+detalhes VARCHAR(512)
+);
+
+CREATE TABLE Medicamento(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(155) NOT NULL,
+descricao VARCHAR(512),
+valor DECIMAL(10,2) NOT NULL,
+dosagem VARCHAR(155),
+qtdEstoque INT NOT NULL DEFAULT 0
+);
+
+CREATE TABLE Pedido(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+dataPedido DATETIME NOT NULL,
+entregue tinyint(1) NOT NULL DEFAULT 0
+);
+
+ALTER TABLE Pedido ADD COLUMN id_Clinica INT NOT NULL;
+ALTER TABLE Pedido ADD FOREIGN KEY (id_Clinica) REFERENCES Clinica(id);
+
+CREATE TABLE ItemPedido(
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+id_pedido INT NOT NULL,
+id_medicamento INT NOT NULL,
+quantidade INT NOT NULL,
+foreign key (id_pedido) references Pedido(id),
+foreign key (id_medicamento) references Medicamento(id)
+);
