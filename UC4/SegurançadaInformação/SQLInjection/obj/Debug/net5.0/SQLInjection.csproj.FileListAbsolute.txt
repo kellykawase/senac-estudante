@@ -1,0 +1,8 @@
+D:\SENAC\UC4\SegurançadaInformação\SQLInjection\obj\Debug\net5.0\SQLInjection.csprojAssemblyReference.cache
+D:\SENAC\UC4\SegurançadaInformação\SQLInjection\obj\Debug\net5.0\SQLInjection.GeneratedMSBuildEditorConfig.editorconfig
+D:\SENAC\UC4\SegurançadaInformação\SQLInjection\obj\Debug\net5.0\SQLInjection.AssemblyInfoInputs.cache
+D:\SENAC\UC4\SegurançadaInformação\SQLInjection\obj\Debug\net5.0\SQLInjection.AssemblyInfo.cs
+D:\SENAC\UC4\SegurançadaInformação\SQLInjection\obj\Debug\net5.0\SQLInjection.csproj.CoreCompileInputs.cache
+D:\SENAC\UC4\SegurançadaInformação\SQLInjection\obj\Debug\net5.0\SQLInjection.MvcApplicationPartsAssemblyInfo.cache
+D:\SENAC\UC4\SegurançadaInformação\SQLInjection\obj\Debug\net5.0\SQLInjection.RazorAssemblyInfo.cache
+D:\SENAC\UC4\SegurançadaInformação\SQLInjection\obj\Debug\net5.0\SQLInjection.RazorAssemblyInfo.cs

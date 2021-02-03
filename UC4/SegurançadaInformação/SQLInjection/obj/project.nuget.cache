@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "viBo7EAohYKfEjLadct3yy+QEdlWWYm780QTwENpQla6wnsNtAzm3kuhuFk1pJBiUHZ2bVizVMdS3Pj6xZMUNA==",
+  "success": true,
+  "projectFilePath": "D:\\SENAC\\UC4\\SegurançadaInformação\\SQLInjection\\SQLInjection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kelly\\.nuget\\packages\\mysqlconnector\\1.2.1\\mysqlconnector.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
