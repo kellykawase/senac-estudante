@@ -1,0 +1,61 @@
+Código da atividade 1 
+Código para deletar.
+No ProdutoRepository.cs tem que acrescentar esse código.
+
+ public void Delele(Produto del)
+        {
+            MySqlConnection conexao = new MySqlConnection(enderecoConexao);
+            conexao.Open();
+
+            string sqlDelete =
+            "Delete from produto" + " WHERE id=" + del.Id;
+            MySqlCommand comando = new MySqlCommand(sqlDelete, conexao);
+            comando.ExecuteNonQuery();
+            conexao.Close();
+        }
+
+E no Program.cs
+  case "D":
+          del = new Produto();
+          Console.Write("Digite o id do produto que será deletado: ");
+
+          del.Id = int.Parse(Console.ReadLine());
+
+          pr.Delele(del);
+          break;
+
+e na Atividade 2
+no UsuarioController.cs acrescente
+    public IActionResult logout()
+        {
+            HttpContext.Session.Clear();//Limpar toda sessão
+            return View();
+        }
+
+No layout.cshtml altera essa parte, fica dentro do <hearder> e <nav>
+ @if(Context.Session.GetInt32("idUsuario") != null)
+                {
+                <span>Olá @Context.Session.GetString("nomeUsuario")</span>
+                <a asp-action="Login" class="btn btn-outline-danger">Sair</a>
+                }
+
+Na pasta View/Usuario crie uma pasta com nome “Logout.cshtml” e insira o código
+@model Usuario
+@{
+    ViewData["Title"] = "Logout";
+}
+<h2>Logout</h2>
+<p id="pMensagem">@ViewBag.Mensagem</p>
+<form asp-action="Logout" method="POST">
+    <p>
+        <input type="submit" value="Sair" />
+    </p>
+</form>
+
+
+
+
+
+https://drive.google.com/file/d/1vUIUEoYTChtRv8KqGcpDGJATKSXtWu34/view?usp=sharing
+
+https://drive.google.com/file/d/1eHL9dlJ_VNTMWBsQWB09Z55B9UiHUKHO/view?usp=sharing
