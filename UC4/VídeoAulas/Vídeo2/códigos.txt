@@ -1,0 +1,383 @@
+OBS>: 
+**utilizar os comandos no terminal: 
+dotnet new mvc --no-https
+E DEPOIS
+dotnet add package MySqlConnector
+
+**Excluir as páginas:
+Models -> ErrorViewModels.cs
+Views -> Privacy.cshtml , _CookieConsentPartial.cshtml, _ValidationScriptsPartial.cshtml
+
+*******************************************************************
+*************************COMANDOS**********************************
+*******************************************************************
+***********CONTROLLERS*********************
+***********HomeController.cs***************
+
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Farmacia.Models;
+
+namespace Farmacia.Controllers
+{
+    public class HomeController : Controller
+    {
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+    }
+}
+
+
+***********MODELS*****************
+***********Clinica.cs*************
+namespace Farmacia.Models
+{
+    public class Clinica
+    {
+        public int Id {get; set;}
+        public string Nome{get;set;}
+        public string Detalhes {get;set;}
+    }
+}
+
+***********ClinicaRepository.cs***********
+using System.Collections.Generic;
+using MySqlConnector;
+
+namespace Farmacia.Models
+{
+public class ClinicaRepository : Repository
+{
+
+public void Cadastra(Clinica c)
+{
+conexao.Open();
+string sql = "INSERT INTO Clinica (nome, Detalhes)"+"VALUES (@nome, @detalhes)";
+
+MySqlCommand comando = new MySqlCommand(sql, conexao);
+comando.Parameters.AddWithValue("@nome", c.Nome);
+comando.Parameters.AddWithValue("@detalhes",c.Detalhes);
+
+comando.ExecuteNonQuery();
+conexao.Close();
+}
+
+ public List<Clinica> Lista(int id)
+        {
+        conexao.Open();
+        string sql = "INSERT INTO Clinica "+ (id > 0 ? "WHERE id = @id" : "") + " ORDER BY nome";
+        MySqlCommand comandoQuery = new MySqlCommand(sql, conexao);
+        if(id > 0){
+        comandoQuery.Parameters.AddWithValue("@id", id);
+        }
+        MySqlDataReader reader = comandoQuery.ExecuteReader();
+        List<Clinica> lista = new List<Clinica>();
+
+        while (reader.Read())
+        {
+            Clinica clinica = new Clinica();
+            clinica.Id = reader.GetInt32("Id");
+
+            if (!reader.IsDBNull(reader.GetOrdinal("Nome")))
+            clinica.Nome = reader.GetString("Nome");
+            if (!reader.IsDBNull(reader.GetOrdinal("Detalhes")))
+            lista.Add(clinica);
+        }
+                conexao.Close();
+        return lista;
+    }
+
+public List<Clinica> Lista()
+    {
+        return Lista(0);
+    }
+}
+}
+
+************Pedido***********
+using System;
+using System.Collections.Generic;
+
+namespace Farmacia.Models
+{
+    public class Pedido
+    {
+        public int Id {get; set;}
+        public DateTime DataPedido {get;set;}
+        public bool Entregue {get;set;}
+        public Clinica clinica {get;set;}
+        public List<ItemPedido> Itens{get; set;}
+    }
+}
+
+************PeditoRepository.cs***********
+using System.Collections.Generic;
+using MySqlConnector;
+using System.Data.SqlClient;
+using System.Data;
+namespace Farmacia.Models
+{
+    public class PedidoRepository: Repository
+    {
+    public int Cadastra(Pedido p)
+    {
+        conexao.Open();
+        string sql = "INSERT INTO Pedido (dataPedido, entregue, id_clinica)"+"VALUES (@dataPedido, 0, @idClinica)";
+
+        MySqlCommand comando = new MySqlCommand(sql, conexao);
+        comando.Parameters.AddWithValue("@dataPedido", p.DataPedido);
+        comando.Parameters.AddWithValue("@idClinica",p.clinica.Id);
+        
+        comando.ExecuteNonQuery();
+        int idNovoPedido = (int)comando.LastInsertedId;
+
+        conexao.Close();
+        return idNovoPedido;
+    }
+    public List<Pedido> Lista(int id)
+    {
+        conexao.Open();
+        string sql = "SELECT * FROM Pedido p" + (id > 0 ? "WHERE id = @id" : "") + "ORDER BY dataPedido DESC";
+        MySqlCommand comandoQuery = new MySqlCommand(sql, conexao);
+        
+        if(id > 0)
+        comandoQuery.Parameters.AddWithValue("@id", id);
+       
+        MySqlDataReader reader = comandoQuery.ExecuteReader();
+        List<Pedido> lista = new List<Pedido>();
+
+        while (reader.Read())
+        {
+            Pedido pedido = new Pedido();
+            pedido.Id = reader.GetInt32("Id");
+
+            if (!reader.IsDBNull(reader.GetOrdinal("DataPedido")))
+            pedido.DataPedido = reader.GetDateTime("DataPedido");
+
+            if (!reader.IsDBNull(reader.GetOrdinal("entregue")))
+            pedido.Entregue = reader.GetBoolean("entregue");
+
+            if (!reader.IsDBNull(reader.GetOrdinal("Id_Clinica"))){
+            pedido.clinica = new Clinica();
+            pedido.clinica.Id = reader.GetInt32("Id_Clinica");
+            }
+        lista.Add(pedido);
+    }
+    conexao.Close();
+    return lista;
+    }
+    public List<Pedido> Lista()
+    {
+        return Lista(0);
+    }
+    }
+    }
+
+************Medicamento.cs***********
+namespace Farmacia.Models{
+    public class Medicamento
+    {
+        public int Id {get;set;}
+        public string Nome {get;set;}
+        public string Descricao {get;set;}
+        public decimal Valor {get;set;}
+        public string Dosagem {get;set;}
+        public int QtdEstoque {get;set;}
+
+    }
+}
+
+************MedicamentoRepository.cs***********
+using System;
+using System.Collections.Generic;
+using System.Data;
+using Farmacia.Models;
+using MySqlConnector;
+
+
+namespace Farmacia.Models
+{
+    public class MedicamentoRepository : Repository
+    {
+        public void Cadastra(Medicamento m)
+        {
+            conexao.Open();
+            string sql = "INSERT INTO Medicamento (nome, descricao, valor, dosagem, qtdEstoque) VALUES (@nome, @descricao, @valor, @dosagem,@qtdEstoque)";
+            MySqlCommand comando = new MySqlCommand(sql, conexao);
+            comando.Parameters.AddWithValue("@nome", m.Nome);
+            comando.Parameters.AddWithValue("@descricao", m.Descricao);
+            comando.Parameters.AddWithValue("@valor", m.Valor);
+            comando.Parameters.AddWithValue("@dosagem", m.Nome);
+            comando.Parameters.AddWithValue("@qtdEstoque", m.QtdEstoque);
+            comando.ExecuteNonQuery();
+
+            conexao.Close();
+
+        }
+        public List<Medicamento> Lista(int id)
+        {
+            conexao.Open();
+            string sql = "SELECT * FROM Medicamento" + (id > 0 ? "WHERE id = @id" : "")+ "ORDER BY nome";
+            MySqlCommand comandoQuery = new MySqlCommand(sql, conexao);
+
+            if(id > 0)
+            comandoQuery.Parameters.AddWithValue("@id",id);
+            MySqlDataReader reader = comandoQuery.ExecuteReader();
+            List<Medicamento> lista = new List<Medicamento>();
+
+            while (reader.Read())
+            {
+                Medicamento medicamento = new Medicamento();
+                medicamento.Id = reader.GetInt32("Id");
+
+                if(!reader.IsDBNull(reader.GetOrdinal("Nome")))
+                medicamento.Nome = reader.GetString("Nome");
+
+                if(!reader.IsDBNull(reader.GetOrdinal("descricao")))
+                medicamento.Descricao = reader.GetString("descricao");
+
+                if(!reader.IsDBNull(reader.GetOrdinal("valor")))
+                medicamento.Valor = reader.GetDecimal("valor");
+
+                if(!reader.IsDBNull(reader.GetOrdinal("dosagem")))
+                medicamento.Dosagem = reader.GetString("dosagem");
+
+                if(!reader.IsDBNull(reader.GetOrdinal("qtdEstoque")))
+                medicamento.QtdEstoque = reader.GetInt32("qtdEstoque");
+
+                lista.Add(medicamento);
+            }
+            conexao.Close();
+            return lista;
+        }
+        public List<Medicamento> Lista()
+        {
+            return Lista(0);
+        }
+    }
+}
+
+************ItemPedido.cs***********
+namespace Farmacia.Models
+{
+    public class ItemPedido
+    {
+        public int Id {get; set;}
+        public int Quantidade {get; set;}
+        public Pedido Pedido {get; set;}
+        public Medicamento Medicamento {get;set;}
+    }
+}
+
+************ItemPedidoRepository.cs***********
+using System.Collections.Generic;
+using MySqlConnector;
+using System;
+
+namespace Farmacia.Models
+{
+    public class ItemPedidoRepository: Repository
+    {
+        public void Cadastra(ItemPedido ip)
+        {
+            conexao.Open();
+            string sql = "INSERT INTO ItemPedido (id_pedido, id_medicamento, quantidade)"+"VALUES (@idPedido, @idMedicamento, @quantidade)";
+
+            MySqlCommand comando = new MySqlCommand(sql,conexao);
+            comando.Parameters.AddWithValue("@idPedido",ip.Pedido.Id);
+            comando.Parameters.AddWithValue("@idMedicamento", ip.Medicamento.Id);
+            comando.Parameters.AddWithValue("@quantidade", ip.Quantidade);
+
+            comando.ExecuteNonQuery();
+            conexao.Close();
+        }
+        public List<ItemPedido> Lista(int idPedido)
+        {
+            conexao.Open();
+            string sql = "SELECT ip.id as IdItemPedido, ip.id_pedido, ip.quantidade,"+"m.id as IdMedicamento, m.nome, m.valor" + "FROM itempedido ip JOIN medicamento m ON ip.id_medicamento = m.id"+"WHERE id_pedido = @idPedido";
+            MySqlCommand comandoQuery = new MySqlCommand(sql, conexao);
+            comandoQuery.Parameters.AddWithValue("@idPedido",idPedido);
+            MySqlDataReader reader = comandoQuery.ExecuteReader();
+
+            List<ItemPedido> lista = new List<ItemPedido>();
+            while (reader.Read()) {
+                ItemPedido item = new ItemPedido();
+                item.Id = reader.GetInt32("IdItemPedido");
+                item.Quantidade = reader.GetInt32("quantidade");
+
+                item.Medicamento = new Medicamento();
+                item.Medicamento.Id = reader.GetInt32("IdMedicamento");
+
+                if(!reader.IsDBNull(reader.GetOrdinal("nome"))){
+                item.Medicamento.Nome = reader.GetString("nome");
+                }
+
+                if(!reader.IsDBNull(reader.GetOrdinal("valor"))){
+                item.Medicamento.Valor = reader.GetDecimal("valor");
+                }
+                lista.Add(item);                
+            }
+            conexao.Close();
+            return lista;
+        }
+    }
+}
+
+************Repository.cs***********
+using MySqlConnector;
+
+namespace Farmacia.Models
+{
+    public abstract class Repository
+    {
+        protected const string _strConexao = "Database=farmacia;Data Source=localhost;User Id=root;";
+        protected MySqlConnection conexao = new MySqlConnection(_strConexao);
+    }
+}
+
+
+************_Layout.cshtml***********
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Farmacia</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Farmacia</a>
+                </div>
+                </nav>
+                </header>
+                                
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - Farmacia - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+

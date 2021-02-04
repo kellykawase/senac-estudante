@@ -1,8 +1,0 @@
-D:\SENAC\UC4\VideoAulas\Farmacia\Farmacia\obj\Debug\net5.0\Farmacia.csprojAssemblyReference.cache
-D:\SENAC\UC4\VideoAulas\Farmacia\Farmacia\obj\Debug\net5.0\Farmacia.GeneratedMSBuildEditorConfig.editorconfig
-D:\SENAC\UC4\VideoAulas\Farmacia\Farmacia\obj\Debug\net5.0\Farmacia.AssemblyInfoInputs.cache
-D:\SENAC\UC4\VideoAulas\Farmacia\Farmacia\obj\Debug\net5.0\Farmacia.AssemblyInfo.cs
-D:\SENAC\UC4\VideoAulas\Farmacia\Farmacia\obj\Debug\net5.0\Farmacia.csproj.CoreCompileInputs.cache
-D:\SENAC\UC4\VideoAulas\Farmacia\Farmacia\obj\Debug\net5.0\Farmacia.MvcApplicationPartsAssemblyInfo.cache
-D:\SENAC\UC4\VideoAulas\Farmacia\Farmacia\obj\Debug\net5.0\Farmacia.RazorAssemblyInfo.cache
-D:\SENAC\UC4\VideoAulas\Farmacia\Farmacia\obj\Debug\net5.0\Farmacia.RazorAssemblyInfo.cs
