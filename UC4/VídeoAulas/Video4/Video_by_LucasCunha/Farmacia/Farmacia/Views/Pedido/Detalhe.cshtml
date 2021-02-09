@@ -1,0 +1,25 @@
+@model Pedido
+
+<h2>Pedido #@Model.Id</h2>
+
+<ul>
+    <li>Clínica: @Model.clinica.Nome</li>
+    <li>Data: @Model.DataPedido</li>
+    <li>Entregue: @Model.Entregue</li>
+    <li>Itens: </li>
+    <table>
+        <tr>
+            <th>Medicamento</th>
+            <th>Valor</th>
+            <th>Quantidade</th>
+        </tr>
+        @foreach (ItemPedido item in Model.Itens)
+        {
+            <tr>
+                <td>@item.medicamento.Nome</td>
+                <td>@item.medicamento.Valor</td>
+                <td>@item.Quantidade</td>
+            </tr>
+        }
+    </table>
+</ul>

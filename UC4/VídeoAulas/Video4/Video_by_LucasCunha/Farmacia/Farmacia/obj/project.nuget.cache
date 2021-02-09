@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PyNPcz0/VFi+qbieulM/mU4d8jWDO0WGPYbTbUcMAzIAe7Dn0xpWSpGgWwT42bVVvREbXZECKFXjYeaS9ZaOoA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucas\\Documents\\Farmacia\\Farmacia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\mysqlconnector\\1.2.1\\mysqlconnector.1.2.1.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

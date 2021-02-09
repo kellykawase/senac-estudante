@@ -1,0 +1,28 @@
+@model List<Medicamento>
+
+<h2>Adicione Medicamentos ao Pedido:</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Valor</th>
+            <th>Quantidade</th>
+            <th>Ação</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Medicamento medicamento in Model)
+        {
+            <tr>
+                <td>@medicamento.Nome</td>
+                <td>@medicamento.Valor</td>
+                <form asp-action="AdicionaASacola" method="post">
+                    <input type="hidden" name="Medicamento.Id" value="@medicamento.Id">
+                    <td><input type="number" name="Quantidade"></td>
+                    <td><input type="submit" value="Adicionar"></td>
+                </form>
+            </tr>
+        }
+    </tbody>
+</table>

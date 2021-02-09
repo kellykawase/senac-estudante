@@ -1,0 +1,44 @@
+@model Farmacia.Models.ViewModels.SacolaViewModel
+
+<h2>Medicamentos escolhidos até agora para o pedido</h2>
+
+@if(Model != null && Model.Itens.Count > 0)
+{
+    <form action="/Pedido/FecharPedido" method="POST">
+        <label asp-for="IdClinica">Selecione a Clínica</label>
+        <select asp-for="IdClinica">
+            @foreach (Clinica cli in Model.Clinicas)
+            {
+                <option value="@cli.Id">@cli.Nome</option>
+            }
+        </select>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Valor</th>
+                    <th>Quantidade</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @for(int i = 0; i < Model.Itens.Count; i++)
+                {
+                    <tr>
+                        <td>@Model.Itens[i].medicamento.Nome</td>
+                        <td>@Model.Itens[i].medicamento.Valor</td>
+                        <td>@Model.Itens[i].Quantidade</td>
+                        <input type="hidden" asp-for="@Model.Itens[i].medicamento.Id">
+                        <td><input type="number" asp-for="@Model.Itens[i].Quantidade"></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <input type="submit" value="Fechar Pedido">
+    </form>
+}
+else
+{
+    <span>Nenhum item selecionado</span>
+}
