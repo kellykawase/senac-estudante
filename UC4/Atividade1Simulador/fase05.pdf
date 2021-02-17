@@ -1,0 +1,1582 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.00 792.00]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 16912
+>>
+stream
+0.20 w
+0 G
+1.00 1.00 1.00 rg
+1.00 1.00 1.00 rg
+0.00 G
+0 J
+1.00 w
+0 j
+0.000 792.000 m 
+0.000 792.000 l
+0.000 0.000 l
+0.000 0.000 l
+0.000 792.000 l
+0.000 792.000 l
+0.000 792.000 l
+f
+q
+1.00 1.00 1.00 rg
+0.00 G
+0 J
+1.00 w
+0 j
+0.000 792.000 m 
+990.000 792.000 l
+990.000 0.000 l
+0.000 0.000 l
+0.000 792.000 l
+990.000 792.000 l
+W
+n
+1.00 1.00 1.00 rg
+1.00 1.00 1.00 rg
+0.00 G
+0 J
+1.00 w
+0 j
+0.000 792.000 m 
+990.000 792.000 l
+990.000 0.000 l
+0.000 0.000 l
+0.000 792.000 l
+990.000 792.000 l
+W
+n
+0.000 792.000 m 
+990.000 792.000 l
+990.000 0.000 l
+0.000 0.000 l
+0.000 792.000 l
+990.000 792.000 l
+f
+Q
+1.00 1.00 1.00 rg
+0.00 G
+0 J
+1.00 w
+0 j
+0.00 0.00 0.00 rg
+BT
+/F6 34.65 Tf
+39.85 TL
+0.000 0.000 0.000 rg
+33.00 717.20 Td
+(Relatório ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 34.65 Tf
+39.85 TL
+0.000 0.000 0.000 rg
+244.21 717.20 Td
+(da ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 34.65 Tf
+39.85 TL
+0.000 0.000 0.000 rg
+307.58 717.20 Td
+(atividade) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 26.4 Tf
+30.36 TL
+0.000 0.000 0.000 rg
+33.00 680.96 Td
+(Comandos ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 26.4 Tf
+30.36 TL
+0.000 0.000 0.000 rg
+175.57 680.96 Td
+(digitados ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 26.4 Tf
+30.36 TL
+0.000 0.000 0.000 rg
+334.00 680.96 Td
+(na ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 26.4 Tf
+30.36 TL
+0.000 0.000 0.000 rg
+381.52 680.96 Td
+(fase ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 26.4 Tf
+30.36 TL
+0.000 0.000 0.000 rg
+460.72 680.96 Td
+(5:) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+43.56 656.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+64.67 656.48 Td
+(CREATE ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+138.60 656.48 Td
+(TABLE ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+201.98 656.48 Td
+(consumidor\() Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+328.71 656.48 Td
+(idConsumidor ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+466.01 656.48 Td
+(INT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+508.26 656.48 Td
+(NOT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+550.51 656.48 Td
+(NULL ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+603.32 656.48 Td
+(AUTO_INCREMENT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+761.75 656.48 Td
+(PRIMARY ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+846.24 656.48 Td
+(KEY,) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 633.48 Td
+(tipoConsumidor ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+191.41 633.48 Td
+(varchar\(80\)) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+318.15 633.48 Td
+(\);) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+43.56 610.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+64.67 610.48 Td
+(CREATE ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+138.60 610.48 Td
+(TABLE ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+201.98 610.48 Td
+(venda\() Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+275.90 610.48 Td
+(idVenda ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+360.40 610.48 Td
+(INT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+402.65 610.48 Td
+(NOT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+444.91 610.48 Td
+(NULL ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+497.69 610.48 Td
+(AUTO_INCREMENT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+656.13 610.48 Td
+(PRIMARY ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+740.62 610.48 Td
+(KEY,) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+793.43 610.48 Td
+(idConsumidor ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 587.48 Td
+(INT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+75.23 587.48 Td
+(NOT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+117.49 587.48 Td
+(NULL,) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+180.86 587.48 Td
+(valorTotalVenda ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+349.84 587.48 Td
+(double ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+423.78 587.48 Td
+(\(9,2\),) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+497.69 587.48 Td
+(FOREIGN ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+582.21 587.48 Td
+(KEY ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+624.45 587.48 Td
+(\(idConsumidor\) ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+782.87 587.48 Td
+(REFERENCES ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 564.48 Td
+(consumidor\(idConsumidor\)) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+297.03 564.48 Td
+(\);) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+43.56 541.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+64.67 541.48 Td
+(CREATE ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+138.60 541.48 Td
+(TABLE ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+201.98 541.48 Td
+(itens_vendidos\() Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+370.97 541.48 Td
+(idProduto ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+476.58 541.48 Td
+(INT,) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+529.39 541.48 Td
+(idVenda ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+613.89 541.48 Td
+(INT,) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+666.70 541.48 Td
+(quantidadeVendida ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+856.81 541.48 Td
+(INT,) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 518.48 Td
+(valorProduto ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+170.30 518.48 Td
+(double,) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+254.78 518.48 Td
+(valorTotalProduto ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+444.91 518.48 Td
+(double,) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+529.39 518.48 Td
+(PRIMARY ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+613.89 518.48 Td
+(KEY ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+656.13 518.48 Td
+(\(idProduto,idVenda\),) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+877.92 518.48 Td
+(FOREIGN ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 495.48 Td
+(KEY ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+75.23 495.48 Td
+(\(idVenda\) ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+180.86 495.48 Td
+(REFERENCES ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+297.03 495.48 Td
+(venda\(idVenda\),) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+466.01 495.48 Td
+(FOREIGN ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+550.51 495.48 Td
+(KEY ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+592.76 495.48 Td
+(\(idProduto\) ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+719.49 495.48 Td
+(REFERENCES ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 472.48 Td
+(produtos\(idProduto\)) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+244.21 472.48 Td
+(\);) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+43.56 449.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+64.67 449.48 Td
+(INSERT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+138.60 449.48 Td
+(INTO ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+191.41 449.48 Td
+(consumidor ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+307.58 449.48 Td
+(\(tipoConsumidor\)) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+487.14 449.48 Td
+(values ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+561.08 449.48 Td
+(\('consumidor ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+698.38 449.48 Td
+(final'\);) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+43.56 426.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+64.67 426.48 Td
+(INSERT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+138.60 426.48 Td
+(INTO ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+191.41 426.48 Td
+(venda ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+254.78 426.48 Td
+(\(idConsumidor,valorTotalVenda\)) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+582.21 426.48 Td
+(values ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+656.13 426.48 Td
+(\(1,821.90\);) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+43.56 403.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+64.67 403.48 Td
+(INSERT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+138.60 403.48 Td
+(INTO) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 380.48 Td
+(itens_vendidos\(idVenda,idProduto,quantidadeVendida,valorProduto,valorTotalProduto\)) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 357.48 Td
+(values\(1,1,40,2.40,96.00\);) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+43.56 334.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+64.67 334.48 Td
+(INSERT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+138.60 334.48 Td
+(INTO) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 311.48 Td
+(itens_vendidos\(idVenda,idProduto,quantidadeVendida,valorProduto,valorTotalProduto\)) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 288.48 Td
+(values\(1,2,100,4.20,420.00\);) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+43.56 265.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+64.67 265.48 Td
+(INSERT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+138.60 265.48 Td
+(INTO) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 242.48 Td
+(itens_vendidos\(idVenda,idProduto,quantidadeVendida,valorProduto,valorTotalProduto\)) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 219.48 Td
+(values\(1,3,10,3.00,30.00\);) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+43.56 196.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+64.67 196.48 Td
+(INSERT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+138.60 196.48 Td
+(INTO) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 173.48 Td
+(itens_vendidos\(idVenda,idProduto,quantidadeVendida,valorProduto,valorTotalProduto\)) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 150.48 Td
+(values\(1,4,5,1.18,5.90\);) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+54.11 127.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+75.23 127.48 Td
+(INSERT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+149.17 127.48 Td
+(INTO) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 104.48 Td
+(itens_vendidos\(idVenda,idProduto,quantidadeVendida,valorProduto,valorTotalProduto\)) Tj
+T* () Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 81.48 Td
+(values\(1,5,90,3,270.00\);) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+54.11 58.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+75.23 58.48 Td
+(SELECT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+149.17 58.48 Td
+(SUM\(valorTotalProduto\) ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+392.09 58.48 Td
+(from ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+444.91 58.48 Td
+(itensVendidos;) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+54.11 35.48 Td
+(: ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+75.23 35.48 Td
+(SELECT ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+149.17 35.48 Td
+(SUM\(valorTotalProduto\) ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+392.09 35.48 Td
+(from ) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F5 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+444.91 35.48 Td
+(itens_vendidos;) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 656.48 Td
+(1) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 610.48 Td
+(2) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 541.48 Td
+(3) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 449.48 Td
+(4) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 426.48 Td
+(5) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 403.48 Td
+(6) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 334.48 Td
+(7) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 265.48 Td
+(8) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 196.48 Td
+(9) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 127.48 Td
+(10) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 58.48 Td
+(11) Tj
+ET
+0.00 0.00 0.00 rg
+0.00 0.00 0.00 rg
+BT
+/F6 16.5 Tf
+18.97 TL
+0.000 0.000 0.000 rg
+33.00 35.48 Td
+(12) Tj
+ET
+0.00 0.00 0.00 rg
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612.00 792.00]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 214
+>>
+stream
+0.20 w
+0 G
+1.00 1.00 1.00 rg
+0.00 G
+0 J
+1.00 w
+0 j
+1.00 1.00 1.00 rg
+0.00 G
+0 J
+1.00 w
+0 j
+0.000 1584.000 m 
+0.000 1584.000 l
+0.000 792.000 l
+0.000 792.000 l
+0.000 1584.000 l
+0.000 1584.000 l
+0.000 1584.000 l
+f
+q
+Q
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 1.5.3)
+/CreationDate (D:20210217201552-03'00')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000017463 00000 n 
+0000019288 00000 n 
+0000000015 00000 n 
+0000000124 00000 n 
+0000017089 00000 n 
+0000017198 00000 n 
+0000017526 00000 n 
+0000017651 00000 n 
+0000017781 00000 n 
+0000017914 00000 n 
+0000018052 00000 n 
+0000018176 00000 n 
+0000018305 00000 n 
+0000018437 00000 n 
+0000018573 00000 n 
+0000018701 00000 n 
+0000018828 00000 n 
+0000018957 00000 n 
+0000019090 00000 n 
+0000019192 00000 n 
+0000019538 00000 n 
+0000019624 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <22D42F10EC29C6C52772764CC53F9F5F> <22D42F10EC29C6C52772764CC53F9F5F> ]
+>>
+startxref
+19728
+%%EOF
