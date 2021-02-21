@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LE/i782Wk9EvH5ToxkCyXswU+bNcL4jFf/tV3508r/2rAFT4C6Ls24DUZYrlUfPuZ5ZWq2NcuYLfugqKNBYrhA==",
+  "success": true,
+  "projectFilePath": "D:\\SENAC\\UC4\\LógicaDeProgramação\\ProjetosC#comBancoDeDados\\Parte7\\CadProdutos\\CadProdutos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kelly\\.nuget\\packages\\mysqlconnector\\1.2.1\\mysqlconnector.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
