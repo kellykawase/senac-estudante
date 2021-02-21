@@ -1,0 +1,17 @@
+Página 3
+
+Considerações:
+Colocar o código:
+if(HttpContext.Session.GetInt32("idUsuario") == null)
+   return RedirectToAction("Login");
+
+Em todas as páginas que só podem ser acessadas se estiver logado.
+Exemplo:
+
+public IActionResult AlgumaPagina()
+{
+if(HttpContext.Session.GetInt32("idUsuario") == null)
+  return RedirectToAction("Login");
+  return View();
+}
+

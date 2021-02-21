@@ -1,0 +1,11 @@
+Página 3
+
+*Considerações:
+*Colocar o código no UsuarioController.cs
+
+public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();//limpa toda a sessão
+            return View();
+        }
+*Colocar esse código no _Layout.cshtml após o código que aparece Olá (nome do usuario) "aqui o código".

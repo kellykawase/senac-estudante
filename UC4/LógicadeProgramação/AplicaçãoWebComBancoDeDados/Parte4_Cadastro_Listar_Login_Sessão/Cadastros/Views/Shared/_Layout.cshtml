@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNetCore.Http
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />    
+    <title>@ViewData["Title"] - Cadastros</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+             <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Cadastros</a>
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>                        
+                    </ul>
+                    @if(Context.Session.GetInt32("idUsuario") !=null)
+                    {
+                        <span>Olá @Context.Session.GetString("nomeUsuario")</span>
+                    }
+         </nav>
+    </header>  
+        <main role="main">
+            @RenderBody()
+        </main>
+        <footer class="border-top footer text-muted">       
+            &copy; 2021 - Cadastros 
+        </footer>    
+</body>
+</html>

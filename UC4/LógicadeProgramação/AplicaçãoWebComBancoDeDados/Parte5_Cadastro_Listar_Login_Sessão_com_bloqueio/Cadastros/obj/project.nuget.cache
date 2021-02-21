@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kGWdFy/4UWheJMPKxJcs94RoRBe/4RYYVJS5OCbic4f6/UTNE7y3szXK64lCn2jG6NzO3zbxBbl+xjRWZ44ozw==",
+  "success": true,
+  "projectFilePath": "D:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte4_Cadastro_Listar_Login_Sessão_com_bloqueio\\Cadastros\\Cadastros.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kelly\\.nuget\\packages\\mysqlconnector\\1.2.1\\mysqlconnector.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
