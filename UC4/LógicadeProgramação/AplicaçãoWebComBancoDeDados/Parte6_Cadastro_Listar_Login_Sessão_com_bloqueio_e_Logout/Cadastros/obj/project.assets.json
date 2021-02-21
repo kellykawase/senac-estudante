@@ -56,11 +56,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Cadastros.csproj",
+      "projectUniqueName": "C:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Cadastros.csproj",
       "projectName": "Cadastros",
-      "projectPath": "D:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Cadastros.csproj",
+      "projectPath": "C:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Cadastros.csproj",
       "packagesPath": "C:\\Users\\kelly\\.nuget\\packages\\",
-      "outputPath": "D:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\obj\\",
+      "outputPath": "C:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kelly\\AppData\\Roaming\\NuGet\\NuGet.Config"

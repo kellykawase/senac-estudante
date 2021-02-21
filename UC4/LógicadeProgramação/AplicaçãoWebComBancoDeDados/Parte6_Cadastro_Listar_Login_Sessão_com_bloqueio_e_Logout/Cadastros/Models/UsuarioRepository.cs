@@ -63,7 +63,7 @@ namespace Cadastros.Models
                 usr.Nome = reader.GetString("Nome");
 
                 if(!reader.IsDBNull(reader.GetOrdinal("Login")))
-                usr.Nome = reader.GetString("Login");
+                usr.Login = reader.GetString("Login");
                 
                 if(!reader.IsDBNull(reader.GetOrdinal("Senha")))
                 usr.Senha = reader.GetString("Senha");

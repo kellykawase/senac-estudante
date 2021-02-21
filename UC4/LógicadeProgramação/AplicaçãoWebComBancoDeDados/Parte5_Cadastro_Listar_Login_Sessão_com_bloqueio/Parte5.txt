@@ -1,5 +1,8 @@
 Página 3
 
+
+Obs.: o login é: kelly@mail.com e a senha é:1234
+
 Considerações:
 Colocar o código:
 if(HttpContext.Session.GetInt32("idUsuario") == null)

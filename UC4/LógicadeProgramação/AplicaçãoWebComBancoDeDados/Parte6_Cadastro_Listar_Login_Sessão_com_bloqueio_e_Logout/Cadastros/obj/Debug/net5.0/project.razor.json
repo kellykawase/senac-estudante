@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Cadastros.csproj",
+  "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Cadastros.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,38 +15603,38 @@
   "RootNamespace": "Cadastros",
   "Documents": [
     {
-      "FilePath": "d:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\Usuario\\Listar.cshtml",
-      "TargetPath": "Views\\Usuario\\Listar.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\Usuario\\Cadastro.cshtml",
+      "TargetPath": "Views\\Usuario\\Cadastro.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\Usuario\\Login.cshtml",
-      "TargetPath": "Views\\Usuario\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\Usuario\\Cadastro.cshtml",
-      "TargetPath": "Views\\Usuario\\Cadastro.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\Usuario\\Listar.cshtml",
+      "TargetPath": "Views\\Usuario\\Listar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\Usuario\\Login.cshtml",
+      "TargetPath": "Views\\Usuario\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],

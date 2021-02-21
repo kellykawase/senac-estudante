@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DVtJmPKHaSNgDfYIVvBRTZTVatrzPUSZk0RaRZ4OxVwMZd56gDGgY563nNcjUvg9fExsd03leszNvGLz4iJ93w==",
+  "dgSpecHash": "hV2el4ymAN9j3K8q5wR/y4Ed5bCNSxCxqtj9WWEQp1oj7TRhTL1HvYdlgbWKlPdXnUsUVWmujlQQqsUmwrYWjQ==",
   "success": true,
-  "projectFilePath": "D:\\SENAC\\UC4\\LógicaDeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Cadastros.csproj",
+  "projectFilePath": "C:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC4\\LógicadeProgramação\\AplicaçãoWebComBancoDeDados\\Parte6_Cadastro_Listar_Login_Sessão_com_bloqueio_e_Logout\\Cadastros\\Cadastros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kelly\\.nuget\\packages\\mysqlconnector\\1.2.1\\mysqlconnector.1.2.1.nupkg.sha512"
   ],
