@@ -1,0 +1,31 @@
+@model Cliente
+@{
+    ViewData["Title"] = "Formulario de Contato";
+}
+<h2>Formulário de Contato</h2>
+<p id="pMensagem">@ViewBag.Mensagem</p>
+<form asp-action="Contato" method="POST">
+    <p>
+        <label asp-for="Nome">Nome:</label>
+        <input asp-for="Nome" />
+    </p>
+    <p>
+        <label asp-for="Email">Email: </label>
+        <input asp-for="Email" />
+    </p>
+    <p>
+        <label asp-for="Telefone">Telefone</label>
+        <input asp-for="Telefone"/>
+    </p>
+    <p>
+        <label asp-for="Selecao">Qual serviço/produto deseja? </label>
+        <input asp-for="Selecao" />
+    </p>
+    <p>
+        <label asp-for="Descricao">Descricao: </label>
+        <input asp-for="Descricao"/>
+    </p>
+    <p>
+        <input type="submit" value="Cadastrar" />
+    </p>
+</form>

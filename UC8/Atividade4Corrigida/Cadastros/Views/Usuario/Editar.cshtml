@@ -1,0 +1,28 @@
+@model Usuario
+@{
+    Layout = "_Layout2";
+}
+@{
+    ViewData["Title"] = "Editar";
+}
+<h2>Edite seus dados</h2>
+<form method="POST" asp-action="Editar">
+    <input type="hidden" asp-for="Id">
+        <p>
+        <label asp-for="Nome">Nome: </label>
+        <input asp-for="Nome">
+    </p>
+    <p>
+        <label asp-for="Login">Login: </label>
+        <input asp-for="Login">
+    </p>
+    <p>
+        <label asp-for="Senha">Senha: </label>
+        <input asp-for="Senha" type="password">
+    </p>
+    <p>
+        <input type="submit" value="Entrar" />
+    </p>
+</form>
+
+<p>@ViewBag.Mensagem</p>
