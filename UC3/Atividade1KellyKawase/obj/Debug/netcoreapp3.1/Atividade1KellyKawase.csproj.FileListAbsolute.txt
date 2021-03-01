@@ -1,0 +1,13 @@
+D:\SENAC\UC3\Atividade1KellyKawase\bin\Debug\netcoreapp3.1\Atividade1KellyKawase.exe
+D:\SENAC\UC3\Atividade1KellyKawase\bin\Debug\netcoreapp3.1\Atividade1KellyKawase.deps.json
+D:\SENAC\UC3\Atividade1KellyKawase\bin\Debug\netcoreapp3.1\Atividade1KellyKawase.runtimeconfig.json
+D:\SENAC\UC3\Atividade1KellyKawase\bin\Debug\netcoreapp3.1\Atividade1KellyKawase.runtimeconfig.dev.json
+D:\SENAC\UC3\Atividade1KellyKawase\bin\Debug\netcoreapp3.1\Atividade1KellyKawase.dll
+D:\SENAC\UC3\Atividade1KellyKawase\bin\Debug\netcoreapp3.1\Atividade1KellyKawase.pdb
+D:\SENAC\UC3\Atividade1KellyKawase\obj\Debug\netcoreapp3.1\Atividade1KellyKawase.csprojAssemblyReference.cache
+D:\SENAC\UC3\Atividade1KellyKawase\obj\Debug\netcoreapp3.1\Atividade1KellyKawase.AssemblyInfoInputs.cache
+D:\SENAC\UC3\Atividade1KellyKawase\obj\Debug\netcoreapp3.1\Atividade1KellyKawase.AssemblyInfo.cs
+D:\SENAC\UC3\Atividade1KellyKawase\obj\Debug\netcoreapp3.1\Atividade1KellyKawase.csproj.CoreCompileInputs.cache
+D:\SENAC\UC3\Atividade1KellyKawase\obj\Debug\netcoreapp3.1\Atividade1KellyKawase.dll
+D:\SENAC\UC3\Atividade1KellyKawase\obj\Debug\netcoreapp3.1\Atividade1KellyKawase.pdb
+D:\SENAC\UC3\Atividade1KellyKawase\obj\Debug\netcoreapp3.1\Atividade1KellyKawase.genruntimeconfig.cache
