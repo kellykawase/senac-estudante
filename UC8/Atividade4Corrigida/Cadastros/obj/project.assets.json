@@ -56,11 +56,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Cadastros.csproj",
+      "projectUniqueName": "C:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Cadastros.csproj",
       "projectName": "Cadastros",
-      "projectPath": "C:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Cadastros.csproj",
+      "projectPath": "C:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Cadastros.csproj",
       "packagesPath": "C:\\Users\\kelly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\obj\\",
+      "outputPath": "C:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kelly\\AppData\\Roaming\\NuGet\\NuGet.Config"

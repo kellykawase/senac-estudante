@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Cadastros.csproj",
+  "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Cadastros.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,82 +15603,82 @@
   "RootNamespace": "Cadastros",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Usuario\\Listar.cshtml",
-      "TargetPath": "Views\\Usuario\\Listar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Usuario\\Editar.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Usuario\\Editar.cshtml",
       "TargetPath": "Views\\Usuario\\Editar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Shared\\_Layout2.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout2.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Portfolio.cshtml",
-      "TargetPath": "Views\\Home\\Portfolio.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Usuario\\Login.cshtml",
-      "TargetPath": "Views\\Usuario\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Servicos.cshtml",
-      "TargetPath": "Views\\Home\\Servicos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Produtos.cshtml",
-      "TargetPath": "Views\\Home\\Produtos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Galeria.cshtml",
-      "TargetPath": "Views\\Home\\Galeria.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Home.cshtml",
-      "TargetPath": "Views\\Home\\Home.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Cliente\\Contato.cshtml",
-      "TargetPath": "Views\\Cliente\\Contato.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Sobre.cshtml",
-      "TargetPath": "Views\\Home\\Sobre.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Cliente\\Listar.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Cliente\\Listar.cshtml",
       "TargetPath": "Views\\Cliente\\Listar.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Mensagem.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Portfolio.cshtml",
+      "TargetPath": "Views\\Home\\Portfolio.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Home.cshtml",
+      "TargetPath": "Views\\Home\\Home.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Usuario\\Login.cshtml",
+      "TargetPath": "Views\\Usuario\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Shared\\_Layout2.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Cliente\\Contato.cshtml",
+      "TargetPath": "Views\\Cliente\\Contato.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Galeria.cshtml",
+      "TargetPath": "Views\\Home\\Galeria.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Servicos.cshtml",
+      "TargetPath": "Views\\Home\\Servicos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Mensagem.cshtml",
       "TargetPath": "Views\\Home\\Mensagem.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kelly\\Desktop\\Atividade4\\Atividade4Corrigida\\Cadastros\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Produtos.cshtml",
+      "TargetPath": "Views\\Home\\Produtos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Home\\Sobre.cshtml",
+      "TargetPath": "Views\\Home\\Sobre.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\Usuario\\Listar.cshtml",
+      "TargetPath": "Views\\Usuario\\Listar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\kelly\\Documents\\senac\\senac-estudante\\UC8\\Atividade4Corrigida\\Cadastros\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
