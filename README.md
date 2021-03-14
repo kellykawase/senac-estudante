@@ -1,2 +1,2 @@
-## Trabalhos, códigos e conteúdos corrigidos para contribuir com o curso Técnico
- Técnico em Informática para a Internet
+## Trabalhos, códigos e conteúdos corrigidos para contribuir com o curso Técnico em Informática para Internet
+
