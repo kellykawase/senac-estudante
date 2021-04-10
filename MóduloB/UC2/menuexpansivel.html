@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transicao</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            padding: 25px;
+        }
+        #menu {
+            width: 150px;
+            height: 100%;
+            background-color: rgb(190, 186, 149);
+            position: fixed;
+            top: 0;
+            left: 0;
+            transform: translate3d(-150px, 0, 0);
+            transition: transform .3s cubic-bezier(0, .52, 0, 1);
+        }
+        #menu.show {
+            transform: translate3d(0px, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Site da Outra Empresa</h1>
+    <button id="btnAbreMenu">Abre o Menu</button>
+    <nav id="content">
+        <p>Texto</p>
+        <p>Conteudo do website</p>
+    </nav>
+    <div id="menu">
+        <h2><a href="#">Index</a></h2>
+        <h2><a href="#">Produtos</a></h2>
+        <h2><a href="#">Contato</a></h2>
+        <h2><a href="#">Busca</a></h2>
+        <button id="btnFechaMenu">Fecha o Menu</button>
+    </div>
+    <script>
+        document.getElementById("btnAbreMenu").onclick = function(){
+            document.querySelector("#menu").classList.add("show");
+        }
+
+        document.getElementById("btnFechaMenu").onclick = function(){
+            document.querySelector("#menu").classList.remove("show");
+        }
+    </script>
+</body>
+</html>

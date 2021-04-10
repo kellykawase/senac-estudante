@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animação CSS</title>
+    <style>
+        body {
+            padding: 50px;
+        }
+        #quadrado{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: oscilacao 2s infinite;
+        }
+        /*@keyframes oscilacao {
+            0% {
+                transform: translateX(0px) ;
+            }
+            50% {
+                transform: translateX(500px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }*/
+
+        @keyframes oscilacao {
+    0% {
+      @keyframes oscilacao {
+    0% {
+        transform: translateX(0px) ;
+    }
+    50% {
+        transform: translateX(500px) scale(2, 2) rotate(90deg);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+     transform: translateX(0px) ;
+    }
+    50% {
+        transform: translateX(500px) scale(2, 2) rotate(90deg);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+   
+
+    </style>
+</head>
+<body>
+    <div id="quadrado">
+    </div>
+</body>
+</html>

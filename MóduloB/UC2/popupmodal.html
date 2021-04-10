@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Modal</title>
+        <style>
+            .modal {
+  display: none; 
+  position: fixed; 
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%; 
+  overflow: auto;
+  background-color: black;
+  opacity: 0.6;
+}
+.janela {
+  display: none;
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid black;
+  width: 50%; 
+  border-radius: 15px;
+}
+.fechar {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.fechar:hover {
+  color: black;
+  cursor: pointer;
+}
+      
+        </style>
+    </head>
+    <body>
+        <button id="btnAbreModal">Abrir Modal</button>
+        <div id="modal" class="modal">
+        
+            <div id="caixa" class="janela">
+                <span class="fechar">&times;</span>
+                <h2>Esta é uma janela modal</h2>
+                <p>Este aviso pode aparecer para validação, ação, ou até formulário.</p>
+                <p> A região escura bloqueia interação com a página ao fundo.</p>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+$("#btnAbreModal").on('click', function(){
+    $("#modal").fadeIn();
+    $("#caixa").slideDown();
+});
+
+$(".fechar").on('click', function(){
+    $("#caixa").slideUp();
+    $("#modal").fadeOut();
+});
+         
+        </script>
+    </body>
+</html>
