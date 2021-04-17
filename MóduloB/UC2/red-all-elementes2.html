@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="page">
+        <h1>Compre hoje!</h1>
+        <ul>
+            <li id="one" class="hot">iphone <em>novo</em></li>
+            <li id="two" class="hot">Motorola G7</li>
+            <li id="three" class="hot">Samsung S10</li>
+        </ul>
+
+    </div>
+    <script>
+        var vetorElementos = document.querySelectorAll(".hot");
+        for(var i = 0; i< vetorElementos.length; i++)
+        {
+        vetorElementos[i].style.color = "red";
+        }
+    </script>
+</body>
+</html>
