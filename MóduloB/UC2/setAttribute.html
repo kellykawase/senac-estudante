@@ -17,10 +17,15 @@
 
     </div>
     <script>
-        var elementoLi = document.getElementById("two");
-        alert(elementoLi.innerHTML);
-        elementoLi = document.getElementById("one");
-        alert(elementoLi.innerHTML);
+        var li1 = document.getElementById("one");
+        var li2 = document.getElementById("two");
+
+        //estilo para li "one"
+        li1.setAttribute("style", "color:red; font-family: Arial, sans;");
+
+        //estilo para li "two"
+        li2.style.color = "red";
+        li2.style.fontFamily = "Arial, sans";
     </script>
 </body>
 </html>
