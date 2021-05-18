@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="res/lib/bootstrap-4/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="res/css/site.css" />
+        <title>Site de Notícias</title>
+    </head>
+    <body class="bg-light">
+        <header>
+            <h1>SITE DE NOTÍCIAS</h1>
+        </header>
+        <main>
+            <!--principais noitícias -->
+            <section id="destaques" class="row ml-4 ">
+                <!--destaque principal-->
+                <div id="maior" class="col-6 float-left card">
+                    <img src="res/img/people.jpg" alt="Pessoas protestando" title="Protesto" class="img-fluid h-75 pb-1 img-thumbnail" width="100%"/>                    
+                    <a href="#"><h2>Manchete Principal</h2></a>
+                    <span class="detalhe">Detalhes desta manchete principal</span>
+                </div>
+                <!--destaques secundários-->
+                <div id="menor1" class="col-3 float-left pl-5">
+                    <img src="res/img/pedestrians2.png" alt="Pedestres atravessando a rua" title="Pedestres" class="img-fluid pb-1 h-75 img-thumbnail"/>
+                    <a href="#"><h3>Manchete 1</h3></a>
+                    <span class="detalhe">Detalhes desta manchete</span>
+                </div>
+                <div id="menor2" class="col-3 float-right">
+                    <img src="res/img/dna2.png" alt="DNA em tons de azul" title="Saúde" class="img-fluid pb-1 h-75 img-thumbnail"/>
+                    <a href="#"><h3>Manchete 2</h3></a>
+                    <span class="detalhe">Detalhes desta manchete</span>
+                </div>
+
+            </section>
+
+            <h2 id="separador" class="ml-4 text-center mr-3 bg-secondary mb-2 pb-1 pt-1">Outras notícias</h2>
+            <div id="base-1" class="float-left ml-4 mr-2  pr-3" > 
+                <!-- mais notícias gerais -->
+                <div id="outras-noticias" class="col-3 float-left">
+                    <div id="outra-noticia1" class="outra-noticia">
+                        <img src="res/img/industry1.png" alt="Pessoas protestando" title="Protesto"  class="w-100 img-fluid pb-2 img-thumbnail"/>
+                        <a href="#"><h3>Manchete 3</h3></a>
+                    </div>
+                    <div id="outra-noticia2" class="outra-noticia">
+                        <img src="res/img/taxi.png" alt="Pessoas protestando" title="Protesto"  class="img-fluid w-100 pb-2 img-thumbnail"/>
+                        <a href="#"><h3>Manchete 4</h3></a>
+                    </div>
+                </div>
+                <!--seções específicas de esportes e entretenimento-->
+                <section id="esporte" class="secao-extra col-9 float-right border bg-white pt-1">
+                    <h3>Esporte</h3>
+                    <div class="w-100"></div>
+                    <div id="esporte1" class="noticia-secao col-4 float-left">
+                        <img src="res/img/football.png" alt="Jogadores disputando bola" title="Futebol" class="img-fluid pb-1 d-block img-thumbnail"/>
+                        <a href="#"><span>Manchete esporte 1</span></a>
+                    </div>
+                    <div id="esporte2" class="noticia-secao col-4 float-left">
+                        <img src="res/img/ferrari.png" alt="Carro de formula 1 da ferrari" title="Formula 1" class="img-fluid pb-1 d-block img-thumbnail"/>
+                        <a href="#"><span>Manchete esporte 2</span></a>
+                    </div>
+                    <div id="esporte3"  class="noticia-secao text-center col-4 float-left">
+                        <h4>Campeonato BR</h4>
+                        <img src="res/img/time1.png" alt="Logo time 1" title="Time 1" class="time img-fluid"/>
+                        <span class="resultado">1 x 0</span>
+                        <img src="res/img/time2.png" alt="Logo time 2" title="Time 2" class="time img-fluid" />
+                        <div class="w-100 pb-2"></div>
+                        <img src="res/img/time3.png" alt="Logo time 3" title="Time 3" class="time img-fluid"/>
+                        <span class="resultado">1 x 0</span>
+                        <img src="res/img/time4.png" alt="Logo time 4" title="Time 4" class="time img-fluid"/>
+                    </div>
+                </section>
+
+                <section id="entretenimento" class="secao-extra col-9 float-right border bg-white">
+                    <h3>Entretenimento</h3>
+                    <div class="w-100"></div>
+                    <div id="entret1" class="noticia-secao float-left col-4">
+                        <img src="res/img/show.png" alt="Cantor no palco rodeado de pessoas" title="Show" class="img-fluid d-block pb-1 img-thumbnail"/>
+                        <a href="#"><span>Manchete entretenimento 1</span></a>
+                    </div>
+                    <div id="entret2" class="noticia-secao col-4 float-left">
+                        <img src="res/img/tv.png" alt="Homem assistindo TV" title="TV" class="img-fluid d-block pb-1 img-thumbnail"/>
+                        <a href="#"><span>Manchete entretenimento 2</span></a>
+                    </div>
+                    <div id="entret3" class="noticia-secao col-4 float-left">
+                        <img src="res/img/celebrity.png"  alt="Rosto da atriz Kajal Aggarwal" title="Celebridade" class="img-fluid d-block pb-1 img-thumbnail"/>
+                        <a href="#"><span>Manchete entretenimento 3</span></a>
+                    </div>
+                </section>
+                
+            </div>
+        </main>
+    </body>
+</html>

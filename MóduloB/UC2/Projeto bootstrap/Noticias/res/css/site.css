@@ -1,0 +1,55 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3c3c3c import !important;
+}
+
+header
+{
+    min-height:4em;
+    background-color: darkslategray;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white
+}
+
+a{
+    text-decoration: none;
+    color: inherit !important;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.detalhe{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.resultado{
+    font-size:1.5em;
+}
+
+.secao-extra{
+    border:1px solid #3c3c3c;
+    padding: 1em;
+    margin-bottom:1em;
+}
+
+.secao-extra span{
+    font-weight: bold;
+}
+
+.noticia-secao{
+    margin-bottom: 1em;
+}
+
+.outra-noticia{
+    margin-bottom: 4em;
+}
+
+#separador{
+    margin: 1em 0 1em 0;
+    border-bottom: 1px solid gray;
+}
